@@ -1,4 +1,4 @@
-package com.sokolowska.generyki;
+package com.sokolowska.newfeatures;
 
 public record Point(double x, double y) {
 

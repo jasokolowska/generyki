@@ -1,4 +1,4 @@
-package com.sokolowska.generyki;
+package com.sokolowska.newfeatures;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
