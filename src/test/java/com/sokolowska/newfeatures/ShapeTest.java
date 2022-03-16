@@ -25,6 +25,6 @@ class ShapeTest {
     @Test
     public void shouldReturnTriangleDiameter() {
         String area = triangle.getDiameter();
-        assertEquals(String.format("getArea() called for %s", triangle.toString()), area);
+        assertEquals(String.format("getDiameter() called for %s", triangle.toString()), area);
     }
 }
