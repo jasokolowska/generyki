@@ -35,3 +35,9 @@ Zapewnić domyślną implementację metody getDiameter()Implementacja powinna sp
 W implementacji użyć instrukcji switch z wykorzystaniem pattern matching (konstrukcja z Javy 17)
 13. Napisać testy jednostkowe do stworzonych klas
 
+return switch (this) {
+            case Circle c -> String.format("getDiameter() called for %s", this.toString());
+            case Section s -> String.format("getDiameter() called for %s", this.toString());
+            case Triangle t -> String.format("getDiameter() called for %s", );
+            default ->  String.format("Shape type not detected");
+        };
